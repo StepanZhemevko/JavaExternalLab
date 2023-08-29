@@ -1,8 +1,6 @@
 pipeline {
     agent {
-        docker {
-            args '-v /root/.m2:/root/.m2'
-        }
+       any
     }
     options {
         skipStagesAfterUnstable()
