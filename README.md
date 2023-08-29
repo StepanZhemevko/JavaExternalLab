@@ -23,8 +23,8 @@ JavaExternalLab
 
 To authenticate with Jenkins for automated processes, you'll need to use your Jenkins username and an API token.
 
-- **Username**: Your_Jenkins_Username
-- **API Token**: Your_Jenkins_API_Token
+- **Username**: stepan_zh
+- **API Token**: jenkins-token-example
 
 You can generate a Jenkins API Token by following these steps:
 1. Log in to Jenkins.
