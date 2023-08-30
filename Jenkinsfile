@@ -1,36 +1,30 @@
 pipeline {
     agent any
-    options {
-        skipStagesAfterUnstable()
+
+    tools {
+        // Install the Maven version configured as "M3" and add it to the path.
+        maven "M3"
     }
-    environment {
-        // Define the path to the Maven Local Repository
-        MAVEN_LOCAL_REPO = '/home/stepan/.m2'
-    }
+
     stages {
         stage('Build') {
             steps {
-                dir("${MAVEN_LOCAL_REPO}") {
-                    sh 'mvn -B -Dmaven.repo.local=${MAVEN_LOCAL_REPO} -DskipTests clean package'
-                }
+                // Get some code from a GitHub repository
+                git 'https://github.com/jglick/simple-maven-project-with-tests.git'
+
+                // Run Maven on a Unix agent.
+                sh "mvn -Dmaven.test.failure.ignore=true clean package"
+
+                // To run Maven on a Windows agent, use
+                // bat "mvn -Dmaven.test.failure.ignore=true clean package"
             }
-        }
-        stage('Test') {
-            steps {
-                dir("${MAVEN_LOCAL_REPO}") {
-                    sh 'mvn -Dmaven.repo.local=${MAVEN_LOCAL_REPO} test'
-                }
-            }
+
             post {
-                always {
-                    junit 'target/surefire-reports/*.xml'
-                }
-            }
-        }
-        stage('Deliver') {
-            steps {
-                dir("${MAVEN_LOCAL_REPO}") {
-                    sh './jenkins/scripts/deliver.sh'
+                // If Maven was able to run the tests, even if some of the test
+                // failed, record the test results and archive the jar file.
+                success {
+                    junit '**/target/surefire-reports/TEST-*.xml'
+                    archiveArtifacts 'target/*.jar'
                 }
             }
         }
