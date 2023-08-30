@@ -1,17 +1,25 @@
 pipeline {
-     agent any
+    agent any
     options {
         skipStagesAfterUnstable()
+    }
+    environment {
+        // Define the path to the Maven Local Repository
+        MAVEN_LOCAL_REPO = '/home/stepan/.m2'
     }
     stages {
         stage('Build') {
             steps {
-                sh 'mvn -B -DskipTests clean package'
+                dir("${MAVEN_LOCAL_REPO}") {
+                    sh 'mvn -B -Dmaven.repo.local=${MAVEN_LOCAL_REPO} -DskipTests clean package'
+                }
             }
         }
         stage('Test') {
             steps {
-                sh 'mvn test'
+                dir("${MAVEN_LOCAL_REPO}") {
+                    sh 'mvn -Dmaven.repo.local=${MAVEN_LOCAL_REPO} test'
+                }
             }
             post {
                 always {
@@ -19,9 +27,11 @@ pipeline {
                 }
             }
         }
-        stage('Deliver') { 
+        stage('Deliver') {
             steps {
-                sh './jenkins/scripts/deliver.sh' 
+                dir("${MAVEN_LOCAL_REPO}") {
+                    sh './jenkins/scripts/deliver.sh'
+                }
             }
         }
     }
