@@ -32,8 +32,6 @@ pipeline {
     post {
         always {
             
-            archiveArtifacts '**/target/*.jar'
-            
             jacoco(execPattern: '**/target/jacoco.exec')
 
             withSonarQubeEnv('sonar') {
