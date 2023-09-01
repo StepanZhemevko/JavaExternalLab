@@ -14,7 +14,7 @@ pipeline {
         }
 
         stage('Build and Test') {
-
+junit allowEmptyResults: true, testResults: '**/test-results/*.xml'
             steps {
                 dir("Task2"){
     sh 'mvn clean test'
