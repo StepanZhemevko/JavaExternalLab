@@ -16,18 +16,18 @@ pipeline {
         stage('Build and Test') {
 
             steps {
-                dir("/home/stepan/Desktop"){
+                //dir("/home/stepan/Desktop"){
     sh 'mvn clean test'
-    }
+    //}
                 
             }
         }
 
         stage('Build') {
             steps {
-                dir("/home/stepan/Desktop"){
+               // dir("/home/stepan/Desktop"){
     sh 'mvn clean package'
-    }
+    //}
                 
             }
         }
