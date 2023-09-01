@@ -29,9 +29,11 @@ pipeline {
         }
         stage('Scan'){
             steps {
+                 dir("Task2") {
     withSonarQubeEnv(installationName: 'sonar') {
     sh 'mvn clean sonar:sonar'
             }
+          }
         }
     }
 
