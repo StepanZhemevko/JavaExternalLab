@@ -16,7 +16,7 @@ pipeline {
         stage('Build and Test') {
 
             steps {
-                dir("/home/stepan/IdeaProjects/Task2"){
+                dir("/home/stepan/Desktop"){
     sh 'mvn clean test'
     }
                 
@@ -25,7 +25,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                dir("/home/stepan/IdeaProjects/Task2"){
+                dir("/home/stepan/Desktop"){
     sh 'mvn clean package'
     }
                 
