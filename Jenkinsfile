@@ -26,7 +26,7 @@ pipeline {
             steps {
                 dir("Task2"){
     sh 'mvn clean package'
-    withSonarQubeEnv('Your_SonarQube_Server_Name') {
+    withSonarQubeEnv('sonar') {
     sh 'mvn sonar:sonar'
     }
                 
@@ -38,8 +38,14 @@ pipeline {
     }
  post {
         always {
+            junit '**/target/surefire-reports/*.xml'
+     
+            archiveArtifacts '**/target/*.jar'
+            
             jacoco(execPattern: '**/target/jacoco.exec')
-            archiveArtifacts(artifacts: '**/target/*.jar', allowEmptyArchive: true)
+
+            withSonarQubeEnv('sonar') {
+                sh 'mvn sonar:sonar'
         }
     }
 }
