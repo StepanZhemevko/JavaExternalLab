@@ -31,12 +31,13 @@ pipeline {
 
     post {
         always {
-            
+             dir("Task2") {
             jacoco(execPattern: '**/target/jacoco.exec')
 
             withSonarQubeEnv('sonar') {
                 sh 'mvn sonar:sonar'
             }
+             }
         }
     }
 }
