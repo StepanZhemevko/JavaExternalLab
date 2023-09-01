@@ -2,27 +2,28 @@ pipeline {
     agent any
 
     triggers {
-        pollSCM('*/5 * * * *') // Polls the repository every 5 minutes (adjust as needed)
+        pollSCM('*/5 * * * *')
     }
 
     stages {
         stage('Checkout') {
             steps {
-                // Check out your Git repository
+            
                 checkout scm
             }
         }
 
         stage('Build and Test') {
             steps {
-                // Build and test your project using Maven
-                sh 'mvn clean test'
+                 Maven mvn = new Maven(this)
+            mvn.goals("clean test -B -P jenkins " +
+                    "-Ddefault.test.suite=${test_suites}")
             }
         }
 
         stage('Build') {
             steps {
-                // Build your project (e.g., create a JAR or WAR file)
+               
                 sh 'mvn clean package'
             }
         }
@@ -30,7 +31,7 @@ pipeline {
 
     post {
         always {
-            // Archive test results
+           
             junit '**/target/surefire-reports/*.xml'
         }
     }
