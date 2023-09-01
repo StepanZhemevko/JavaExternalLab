@@ -15,9 +15,7 @@ pipeline {
 
         stage('Build and Test') {
             steps {
-                 Maven mvn = new Maven(this)
-            mvn.goals("clean test -B -P jenkins " +
-                    "-Ddefault.test.suite=${test_suites}")
+                sh 'mvn clean test'
             }
         }
 
