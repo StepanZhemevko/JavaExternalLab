@@ -14,15 +14,21 @@ pipeline {
         }
 
         stage('Build and Test') {
+
             steps {
-                sh 'mvn clean test'
+                dir("/home/stepan/IdeaProjects/Task2"){
+    sh 'mvn clean test'
+    }
+                
             }
         }
 
         stage('Build') {
             steps {
-               
-                sh 'mvn clean package'
+                dir("/home/stepan/IdeaProjects/Task2"){
+    sh 'mvn clean package'
+    }
+                
             }
         }
     }
