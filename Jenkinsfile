@@ -15,7 +15,6 @@ pipeline {
 
         stage('Build and Test') {
             steps {
-                junit allowEmptyResults: true, testResults: '**/test-results/*.xml'
                 dir("Task2"){
     sh 'mvn clean test'
     }
@@ -33,11 +32,5 @@ pipeline {
         }
     }
 
-    post {
-        always {
-           
-            junit '**/target/surefire-reports/*.xml'
-        }
-    }
 }
 
