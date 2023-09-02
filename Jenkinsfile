@@ -27,21 +27,21 @@ pipeline {
                 }
             }
         }
-        stage('Scan'){
+
+        stage('SonarQube Analysis') {
             steps {
-                 dir("Task2") {
-    withSonarQubeEnv(installationName: 'sonar') {
-    sh 'mvn clean sonar:sonar'
+                dir("Task2") {
+                    withSonarQubeEnv('sonar') {
+                        sh 'mvn clean verify sonar:sonar -Dsonar.java.binaries=target/classes'
+                    }
+                }
             }
-          }
         }
     }
 
-}
-     post {
+    post {
         always {
             jacoco(execPattern: '**/target/jacoco.exec')
-             
         }
     }
 }
