@@ -24,6 +24,7 @@ pipeline {
             steps {
                 dir("Task2") {
                     sh 'mvn clean package'
+                    sh 'mvn clean install'
                 }
             }
         }
@@ -39,9 +40,8 @@ pipeline {
         }
 
    stage('Compile-Package-create-war-file'){
-// Get maven home path
 def mvnHome = tool name: 'maven', type: 'maven'
-bat "${mvnHome)/bin/mvn package"
+//bat "${mvnHome)/bin/mvn package"
 }
     }
 
