@@ -39,10 +39,10 @@ pipeline {
             }
         }
 
-   stage('Compile-Package-create-war-file'){
-def mvnHome = tool name: 'maven', type: 'maven'
+   //stage('Compile-Package-create-war-file'){
+//def mvnHome = tool name: 'maven', type: 'maven'
 //bat "${mvnHome)/bin/mvn package"
-}
+//}
     }
 
     post {
