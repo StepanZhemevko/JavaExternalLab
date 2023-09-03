@@ -45,11 +45,11 @@ pipeline {
             }
         }
 
-   //stage('Compile-Package-create-war-file'){
-//def mvnHome = tool name: 'maven', type: 'maven'
-//bat "${mvnHome)/bin/mvn package"
-//}
-    }
+       stage('Deploy'){
+           steps{
+             deploy adapters: [tomcat10(credentialsId: 'TomcatCreds', path: '', url: 'http://localhost:8081/')], contextPath: null, war: '**/*.war'  
+           }
+        }
 
     post {
         always {
