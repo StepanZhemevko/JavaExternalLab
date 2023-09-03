@@ -37,6 +37,14 @@ pipeline {
                 }
             }
         }
+        stage ('Deployment') {
+            steps {
+                dir("Task2") {
+deploy adapters: [tomcat10 (credentials Id: 'TomcatCreds', path: , url: 'http://localhost:8080/')], contextPath: null, war: 'target/*.war'
+                }
+            }
+        }
+        
     }
 
     post {
