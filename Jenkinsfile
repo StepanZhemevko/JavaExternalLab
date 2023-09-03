@@ -27,6 +27,12 @@ pipeline {
                     sh 'mvn clean install'
                 }
             }
+            post {
+                success{
+                    echo "Archiving the Artifacts"
+                    archiveArtifacts artifacts: '**/target/*.war'
+                }
+            }
         }
 
         stage('SonarQube Analysis') {
