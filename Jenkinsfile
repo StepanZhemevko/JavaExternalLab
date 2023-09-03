@@ -38,24 +38,11 @@ pipeline {
             }
         }
 
-        stage('Deployment') {
-            steps {
-                script {
-                    def tomcatServer = 'Your_Tomcat_Server_Name' // Replace with your Tomcat server name
-                    def tomcatCredentialsId = 'TomcatCreds' // Replace with your credentials ID for Tomcat
-
-                    // Define the path to the WAR file you want to deploy
-                    def warFilePath = "Task2/target/*.war"
-
-                    // Deploy the WAR file to Tomcat using the Tomcat Deploy plugin
-                    tomcatDeploy(
-                        serverName: tomcatServer,
-                        credentialsId: tomcatCredentialsId,
-                        war: warFilePath
-                    )
-                }
-            }
-        }
+   stage('Compile-Package-create-war-file'){
+// Get maven home path
+def mvnHome = tool name: 'maven-3', type: 'maven'
+bat "${mvnHome)/bin/mvn package"
+}
     }
 
     post {
