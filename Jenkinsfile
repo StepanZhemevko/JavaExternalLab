@@ -37,14 +37,21 @@ pipeline {
                 }
             }
         }
-        stage ('Deployment') {
+
+        stage('Deployment') {
             steps {
-                dir("Task2") {
-deploy adapters: [tomcat10 (credentials Id: 'TomcatCreds', path: , url: 'http://localhost:8080/')], contextPath: null, war: '**/target/*.war'
+                script {
+                    def tomcatServer = 'tomcat' 
+                    def tomcatCredentialsId = 'TomcatCreds' 
+
+                    tomcatDeploy(
+                        serverName: tomcat,
+                        credentialsId: TomcatCreds,
+                        war: '**/target/*.war'
+                    )
                 }
             }
         }
-        
     }
 
     post {
