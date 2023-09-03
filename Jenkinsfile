@@ -40,7 +40,7 @@ pipeline {
 
    stage('Compile-Package-create-war-file'){
 // Get maven home path
-def mvnHome = tool name: 'maven-3', type: 'maven'
+def mvnHome = tool name: 'maven', type: 'maven'
 bat "${mvnHome)/bin/mvn package"
 }
     }
