@@ -47,9 +47,7 @@ pipeline {
 
        stage('Deploy'){
            steps{
-               dir("Task2") {
-             deploy adapters: [tomcat9(credentialsId: 'TomcatCreds', path: '', url: 'http://localhost:8086/')], contextPath: null, war: '**/*.war'  
-           }
+            deploy adapters: [tomcat9(credentialsId: 'TomcatCreds', path: '', url: 'http://localhost:8086/')], contextPath: null, war: '**/*.war'
            }
         }
 
