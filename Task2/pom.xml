@@ -89,7 +89,7 @@
 
     </dependencies>
     <build>
-      <finalName>task2</finalName>
+      <finalName>${artifactId}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
