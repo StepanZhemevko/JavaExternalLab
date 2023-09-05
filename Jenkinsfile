@@ -47,14 +47,8 @@ pipeline {
 
        stage('Deploy'){
            steps{
-           deploy adapters: [tomcat9(credentialsId: 'TomcatCreds', path: '', url: 'http://localhost:8086/')],contextPath: null , war: '**/*.war'
+           deploy adapters: [tomcat9(credentialsId: 'TomcatCreds', path: '', url: 'http://localhost:8086/')], war: '**/*.war'
            }
         }
 
-}
-     post {
-        always {
-            jacoco(execPattern: '**/target/jacoco.exec')
-        }
-    }
-}
+},
