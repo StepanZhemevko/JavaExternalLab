@@ -18,7 +18,7 @@ public class WebConfig {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/third_modul");
-        dataSource.setUsername("root");
+        dataSource.setUsername("admin");
         dataSource.setPassword("011235813");
         return dataSource;
     }

@@ -17,45 +17,45 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
 
 class TagDaoImplTest {
-    // @Mock
-    // private JdbcTemplate jdbcTemplate;
+    @Mock
+    private JdbcTemplate jdbcTemplate;
 
-    // @InjectMocks
-    // private TagDaoImpl tagDao;
-
-
-    // @BeforeEach
-    // public void setup() {
-    //     MockitoAnnotations.initMocks(this);
-    // }
-
-    // @Test
-    // public void testCreate() {
-    //     Tag tag = new Tag(null, "Test Tag");
-    //     KeyHolder keyHolder = new GeneratedKeyHolder();
-
-    //     doAnswer(invocation -> {
-    //         PreparedStatement statement = invocation.getArgument(0);
-    //         statement.getConnection();
-    //         statement.setString(1, tag.getName());
-
-    //         Objects.requireNonNull(keyHolder.getKey()).longValue();
-
-    //         tag.setId(keyHolder.getKey().longValue());
-    //         return 1;
-    //     }).when(jdbcTemplate).update(any(PreparedStatementCreator.class), any(KeyHolder.class));
-
-    //     when(jdbcTemplate.update(anyString(), any(Object[].class), any(KeyHolder.class))).thenReturn(1);
-    //     when(keyHolder.getKey()).thenReturn(1L);
+    @InjectMocks
+    private TagDaoImpl tagDao;
 
 
-    //     Tag createdTag = tagDao.create(tag);
+    @BeforeEach
+    public void setup() {
+        MockitoAnnotations.initMocks(this);
+    }
 
-    //     assertEquals(1L, createdTag.getId());
-    //     assertEquals("Test Tag", createdTag.getName());
-    //     verify(jdbcTemplate).update(any(PreparedStatementCreator.class), any(KeyHolder.class));
-    //     verify(jdbcTemplate, never()).update(anyString(), any(Object[].class), any(KeyHolder.class));
-    // }
+    @Test
+    public void testCreate() {
+        Tag tag = new Tag(null, "Test Tag");
+        KeyHolder keyHolder = new GeneratedKeyHolder();
+
+        doAnswer(invocation -> {
+            PreparedStatement statement = invocation.getArgument(0);
+            statement.getConnection();
+            statement.setString(1, tag.getName());
+
+            Objects.requireNonNull(keyHolder.getKey()).longValue();
+
+            tag.setId(keyHolder.getKey().longValue());
+            return 1;
+        }).when(jdbcTemplate).update(any(PreparedStatementCreator.class), any(KeyHolder.class));
+
+        when(jdbcTemplate.update(anyString(), any(Object[].class), any(KeyHolder.class))).thenReturn(1);
+        when(keyHolder.getKey()).thenReturn(1L);
+
+
+        Tag createdTag = tagDao.create(tag);
+
+        assertEquals(1L, createdTag.getId());
+        assertEquals("Test Tag", createdTag.getName());
+        verify(jdbcTemplate).update(any(PreparedStatementCreator.class), any(KeyHolder.class));
+        verify(jdbcTemplate, never()).update(anyString(), any(Object[].class), any(KeyHolder.class));
+    }
 
 //    @Test
 //    void getAllTest() {
