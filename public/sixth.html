@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fourth.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <title>Checkout</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><span class="material-icons">
+                    <a href="#">reorder</a>
+                    </span></li>
+                <li><input type="text" id="search" placeholder="Search"></li>
+                <li>
+                    <select id="category">
+                        <option value="category1">Category 1</option>
+                        <option value="category2">Category 2</option>
+                        <option value="category3">Category 3</option>
+                    </select>
+                </li>
+                <li><span class="material-icons">
+                    <a href="#"></a>favorite
+                    </span></li>
+                <li><span class="material-icons">
+                    <a href="#"></a>shopping_cart
+                    </span></li>
+            </ul>
+        </nav>
+        <div class="user-actions">
+            <a href="#">Login</a> | <a href="#">Sign Up</a>
+        </div>
+    </header>
+    <main>
+        <table class="coupons-table">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="coupon1.jpg" alt="Coupon 1"></td>
+                    <td>Coupon 1</td>
+                    <td>Short description of Coupon 1</td>
+                    <td>$10</td>
+                </tr>
+                <tr>
+                    <td><img src="coupon2.jpg" alt="Coupon 2"></td>
+                    <td>Coupon 2</td>
+                    <td>Short description of Coupon 2</td>
+                    <td>$15</td>
+                </tr>
+                <!-- Add more coupon rows here -->
+            </tbody>
+        </table>
+        <div class="total">
+            <p>Total:</p>
+            <p>$25</p>
+        </div>
+        <div class="checkout-buttons">
+            <button>Back</button>
+            <button>Checkout</button>
+        </div>
+    </main>
+</body>
+</html>
