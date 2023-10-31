@@ -1,0 +1,157 @@
+{
+    "coupons": [
+      {
+        "id": 1,
+        "name": "Name1",
+        "image": "coupon1.jpg",
+        "description": "Short description",
+        "price": "10",
+        "validUntil": "2023-12-31"
+      },
+      {
+        "id": 2,
+        "name": "Name2",
+        "image": "coupon2.jpg",
+        "description": "Short description",
+        "price": "15",
+        "validUntil": "2023-12-31"
+      },
+      {
+        "id": 3,
+        "name": "Name3",
+        "image": "coupon1.jpg",
+        "description": "Short description",
+        "price": "10",
+        "validUntil": "2023-12-31"
+      },
+      {
+        "id": 4,
+        "name": "Name4",
+        "image": "coupon2.jpg",
+        "description": "Short description",
+        "price": "$15",
+        "validUntil": "2023-12-31"
+      },
+      {
+        "id": 5,
+        "name": "Name5",
+        "image": "coupon1.jpg",
+        "description": "Short description",
+        "price": "$10",
+        "validUntil": "2023-12-31"
+      },
+      {
+        "id": 6,
+        "name": "Name6",
+        "image": "coupon2.jpg",
+        "description": "Short description",
+        "price": "$15",
+        "validUntil": "2023-12-31"
+      },
+      {
+        "id": 7,
+        "name": "Name7",
+        "image": "coupon2.jpg",
+        "description": "Short description",
+        "price": "$15",
+        "validUntil": "2023-12-31"
+      },
+      {
+        "id": 8,
+        "name": "Name8",
+        "image": "coupon2.jpg",
+        "description": "Short description",
+        "price": "$15",
+        "validUntil": "2023-12-31"
+      },
+      {
+        "id": 9,
+        "name": "Name9",
+        "image": "coupon2.jpg",
+        "description": "Short description",
+        "price": "$15",
+        "validUntil": "2023-12-31"
+      },
+      {
+        "id": 10,
+        "name": "Name10",
+        "image": "coupon2.jpg",
+        "description": "Short description",
+        "price": "$15",
+        "validUntil": "2023-12-31"
+      },
+      {
+        "id": 11,
+        "name": "Name11",
+        "image": "coupon2.jpg",
+        "description": "Short description",
+        "price": "$15",
+        "validUntil": "2023-12-31"
+      },
+      {
+        "id": 12,
+        "name": "Name12",
+        "image": "coupon2.jpg",
+        "description": "Short description",
+        "price": "$15",
+        "validUntil": "2023-12-31"
+      },
+      {
+        "id": 13,
+        "name": "Name13",
+        "image": "coupon2.jpg",
+        "description": "Short description",
+        "price": "$15",
+        "validUntil": "2023-12-31"
+      },
+      {
+        "id": 14,
+        "name": "Name14",
+        "image": "coupon2.jpg",
+        "description": "Short description",
+        "price": "$15",
+        "validUntil": "2023-12-31"
+      },
+      {
+        "id": 15,
+        "name": "Name15",
+        "image": "coupon2.jpg",
+        "description": "Short description",
+        "price": "$15",
+        "validUntil": "2023-12-31"
+      },
+      {
+        "id": 16,
+        "name": "Name16",
+        "image": "coupon2.jpg",
+        "description": "Short description",
+        "price": "$15",
+        "validUntil": "2023-12-31"
+      },
+      {
+        "id": 17,
+        "name": "Name17",
+        "image": "coupon2.jpg",
+        "description": "Short description",
+        "price": "$15",
+        "validUntil": "2023-12-31"
+      },
+      {
+        "id": 18,
+        "name": "Name18",
+        "image": "coupon2.jpg",
+        "description": "Short description",
+        "price": "$15",
+        "validUntil": "2023-12-31"
+      },
+      {
+        "id": 19,
+        "name": "Name19",
+        "image": "coupon2.jpg",
+        "description": "Short description",
+        "price": "$15",
+        "validUntil": "2023-12-31"
+      }
+    ]
+  }
+  
