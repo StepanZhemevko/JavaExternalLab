@@ -1,0 +1,103 @@
+body {
+  background-color: #333;
+  color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #444;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav input[type="text"], nav select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #555;
+  color: white;
+}
+
+nav select {
+  margin-left: 10px;
+}
+
+.user-actions a {
+  color: white;
+  text-decoration: none;
+}
+
+.user-actions a:hover {
+  text-decoration: underline;
+}
+
+main {
+  background-color: #333;
+  padding: 20px;
+}
+
+.coupons-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.coupons-table th, .coupons-table td {
+  border: 1px solid #555;
+  padding: 10px;
+  text-align: center;
+}
+
+.coupons-table th {
+  background-color: #444;
+  color: white;
+}
+
+.coupons-table img {
+  max-width: 100px;
+  height: auto;
+}
+
+.total {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.total p {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.checkout-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+
+button:hover {
+  background-color: #0056b3;
+}

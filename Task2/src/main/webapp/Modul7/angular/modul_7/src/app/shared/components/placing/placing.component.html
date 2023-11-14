@@ -1,0 +1,63 @@
+<header>
+  <nav>
+    <ul>
+      <li><span class="material-icons">
+                    <a href="#">reorder</a>
+                    </span></li>
+      <li><input type="text" id="search" placeholder="Search"></li>
+      <li>
+        <select id="category">
+          <option value="category1">Category 1</option>
+          <option value="category2">Category 2</option>
+          <option value="category3">Category 3</option>
+        </select>
+      </li>
+      <li><span class="material-icons">
+                    <a href="#"></a>favorite
+                    </span></li>
+      <li><span class="material-icons">
+                    <a href="#"></a>shopping_cart
+                    </span></li>
+    </ul>
+  </nav>
+  <div class="user-actions">
+    <a href="/login">Login</a> | <a href="/registration">Sign Up</a>
+  </div>
+</header>
+
+
+<!-- placing.component.html -->
+
+<!-- ... (existing content) -->
+
+<main>
+  <table class="coupons-table">
+    <thead>
+    <tr>
+      <th>Image</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Price</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let coupon of userCoupons">
+      <td><img src="../../../../assets/images/coupon1.jpg" alt="{{ coupon.name }}"></td>
+      <td>{{ coupon.name }}</td>
+      <td>{{ coupon.description }}</td>
+      <td>{{ coupon.price | currency: 'USD' }}</td>
+    </tr>
+    </tbody>
+  </table>
+
+  <div class="total">
+    <p>Total:</p>
+    <p>{{ getTotalPrice() | currency: 'USD' }}</p>
+  </div>
+
+  <div class="checkout-buttons">
+    <button (click)="onCklick()">Back</button>
+    <button>Checkout</button>
+  </div>
+</main>
+
