@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Task2:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c69cab27-294a-4523-9396-69d07ab5f57a" name="Changes" comment="Commit[COM-2]" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="81cc3b11-e74f-45af-9b96-23bf8bfcb490" />
+        <option name="url" value="https://github.com/StepanZhemevko/JavaExternalLab" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/resources/logger_file.log" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2OC8pRS3ulSlYSG9QX4rAs5IBar" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Steve/IdeaProjects/Task2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;00527a082a13ce46129c87cc4f23ee77&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Steve\\IdeaProjects\\Task2\\src\\main\\webapp\\Modul7\\angular\\modul_7\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;,
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.epam.esm.dto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/Modul7/angular/modul_7/src/app/shared/components/coupon" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/epam/esm" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/epam/esm/service" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/epam/esm/mapper" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/Modul7/angular/modul_7/src/assets/images" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/Modul7/angular/modul_7/src/app" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.epam.esm" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.epam.esm.dao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.epam.esm.controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="hiddenConfigurations">
+      <map>
+        <entry key="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+          <value>
+            <set>
+              <option value="Tomcat 10.1.4" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Task2Application">
+    <configuration name="TagDaoImplTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Task2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.esm.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.esm.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.esm.dao.TagDaoImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TagDaoImplTest.deleteTagTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.esm.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.esm.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.esm.dao.TagDaoImplTest" />
+      <option name="METHOD_NAME" value="deleteTagTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TagDaoImplTest.getAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.esm.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.esm.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.esm.dao.TagDaoImplTest" />
+      <option name="METHOD_NAME" value="getAllTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TagDaoImplTest.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.esm.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.esm.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.esm.dao.TagDaoImplTest" />
+      <option name="METHOD_NAME" value="testCreate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/webapp/Modul7/server.js" working-dir="$PROJECT_DIR$/src/main/webapp/Modul7">
+      <method v="2" />
+    </configuration>
+    <configuration name="Task2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="Task2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.epam.esm.Task2Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.esm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 10.1.4" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.4" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="17" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Task2:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="f3292631-1455-498b-a8fb-e58e3d32502d" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="40611" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Task2:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/src/main/webapp/Modul7/angular/modul_7/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Angular Application" />
+      <item itemvalue="JUnit.TagDaoImplTest" />
+      <item itemvalue="JUnit.TagDaoImplTest.deleteTagTest" />
+      <item itemvalue="JUnit.TagDaoImplTest.getAllTest" />
+      <item itemvalue="JUnit.TagDaoImplTest.testCreate" />
+      <item itemvalue="Node.js.server.js" />
+      <item itemvalue="npm.Angular CLI Server" />
+      <item itemvalue="Spring Boot.Task2Application" />
+      <item itemvalue="Tomcat Server.Tomcat 10.1.4" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Task2Application" />
+        <item itemvalue="Node.js.server.js" />
+        <item itemvalue="JUnit.TagDaoImplTest.getAllTest" />
+        <item itemvalue="JUnit.TagDaoImplTest.deleteTagTest" />
+        <item itemvalue="JUnit.TagDaoImplTest.testCreate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c69cab27-294a-4523-9396-69d07ab5f57a" name="Changes" comment="" />
+      <created>1681053388731</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681053388731</updated>
+      <workItem from="1681053390328" duration="11638000" />
+      <workItem from="1681369482363" duration="51000" />
+      <workItem from="1681833576001" duration="4701000" />
+      <workItem from="1681886434902" duration="2398000" />
+      <workItem from="1681908383164" duration="7384000" />
+      <workItem from="1681973415254" duration="15117000" />
+      <workItem from="1682171907326" duration="2454000" />
+      <workItem from="1682230358324" duration="1691000" />
+      <workItem from="1682284280042" duration="92000" />
+      <workItem from="1682588673931" duration="22768000" />
+      <workItem from="1682620536748" duration="3820000" />
+      <workItem from="1683185166994" duration="18169000" />
+      <workItem from="1683209467227" duration="9518000" />
+      <workItem from="1683550868733" duration="21000" />
+      <workItem from="1683704058131" duration="1191000" />
+      <workItem from="1683792706930" duration="3101000" />
+      <workItem from="1683797674055" duration="11400000" />
+      <workItem from="1683813782254" duration="3572000" />
+      <workItem from="1683883866569" duration="1214000" />
+      <workItem from="1683913806988" duration="3881000" />
+      <workItem from="1684006262688" duration="1564000" />
+      <workItem from="1684090818926" duration="897000" />
+      <workItem from="1684162411803" duration="3553000" />
+      <workItem from="1684167818206" duration="1057000" />
+      <workItem from="1684262971261" duration="5678000" />
+      <workItem from="1684271130336" duration="733000" />
+      <workItem from="1686323140676" duration="898000" />
+      <workItem from="1686478727320" duration="223000" />
+      <workItem from="1687016777156" duration="2040000" />
+      <workItem from="1687021294372" duration="1775000" />
+      <workItem from="1687110009077" duration="4475000" />
+      <workItem from="1687377916888" duration="571000" />
+      <workItem from="1687427449899" duration="22242000" />
+      <workItem from="1687780551983" duration="11046000" />
+      <workItem from="1687795456492" duration="235000" />
+      <workItem from="1687795718314" duration="3910000" />
+      <workItem from="1687849547844" duration="55000" />
+      <workItem from="1689230222980" duration="142000" />
+      <workItem from="1689439278239" duration="10000" />
+      <workItem from="1689946002580" duration="5869000" />
+      <workItem from="1691343701874" duration="793000" />
+      <workItem from="1691389790485" duration="4238000" />
+      <workItem from="1691479018992" duration="11976000" />
+      <workItem from="1691509923197" duration="1305000" />
+      <workItem from="1691511429382" duration="11559000" />
+      <workItem from="1691561957657" duration="12808000" />
+      <workItem from="1691584409018" duration="9000" />
+      <workItem from="1692017184188" duration="1411000" />
+      <workItem from="1692356476910" duration="1756000" />
+      <workItem from="1692377313980" duration="4587000" />
+      <workItem from="1692428003559" duration="2171000" />
+      <workItem from="1692527598922" duration="2590000" />
+      <workItem from="1692551742663" duration="388000" />
+      <workItem from="1692563290534" duration="561000" />
+      <workItem from="1692564117519" duration="3212000" />
+      <workItem from="1692597220007" duration="723000" />
+      <workItem from="1692607652145" duration="3181000" />
+      <workItem from="1693905608308" duration="85000" />
+      <workItem from="1693924768625" duration="129000" />
+      <workItem from="1693933264723" duration="28000" />
+      <workItem from="1693934870308" duration="450000" />
+      <workItem from="1693993174456" duration="966000" />
+      <workItem from="1694202164395" duration="2829000" />
+      <workItem from="1694243005118" duration="1893000" />
+      <workItem from="1694596926868" duration="30000" />
+      <workItem from="1694597718068" duration="24000" />
+      <workItem from="1698858685495" duration="6262000" />
+      <workItem from="1698938402648" duration="9261000" />
+      <workItem from="1699027896574" duration="1618000" />
+      <workItem from="1699031614683" duration="460000" />
+      <workItem from="1699032475507" duration="1595000" />
+      <workItem from="1699035425468" duration="353000" />
+      <workItem from="1699085100668" duration="371000" />
+      <workItem from="1699086073222" duration="1304000" />
+      <workItem from="1699121017875" duration="1955000" />
+      <workItem from="1699173950714" duration="836000" />
+      <workItem from="1699205817678" duration="450000" />
+      <workItem from="1699206459548" duration="2055000" />
+      <workItem from="1699208875107" duration="3053000" />
+      <workItem from="1699259289486" duration="2337000" />
+      <workItem from="1699262088470" duration="635000" />
+      <workItem from="1699283802351" duration="2141000" />
+      <workItem from="1699350336827" duration="309000" />
+      <workItem from="1699446210403" duration="5752000" />
+      <workItem from="1699472441777" duration="2543000" />
+      <workItem from="1699516722222" duration="46077000" />
+      <workItem from="1699685562197" duration="14147000" />
+      <workItem from="1699796953301" duration="20400000" />
+      <workItem from="1699862214884" duration="1496000" />
+      <workItem from="1699887707579" duration="15397000" />
+      <workItem from="1699997970638" duration="222000" />
+      <workItem from="1699998903355" duration="1035000" />
+    </task>
+    <task id="LOCAL-00001" summary="CommitAll[COM-1]">
+      <created>1684266998720</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684266998720</updated>
+    </task>
+    <task id="LOCAL-00002" summary="CommitAll[COM-1]">
+      <created>1684267851524</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684267851524</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="CommitAll[COM-1]" />
+    <option name="LAST_COMMIT_MESSAGE" value="CommitAll[COM-1]" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Task2$Task2Application.ic" NAME="Task2Application Coverage Results" MODIFIED="1699530977174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.epam.esm.*</FILTER>
+    </SUITE>
+  </component>
+</project>
