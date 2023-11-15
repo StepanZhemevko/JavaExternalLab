@@ -1,0 +1,42 @@
+<header>
+  <nav>
+    <ul>
+      <li><span class="material-icons">
+                    <a href="#">reorder</a>
+                    </span></li>
+      <li><input type="text" id="search" placeholder="Search"></li>
+      <li>
+        <select id="category">
+          <option value="category1">Category 1</option>
+          <option value="category2">Category 2</option>
+          <option value="category3">Category 3</option>
+        </select>
+      </li>
+      <li><span class="material-icons">
+                    <a href="#">favorite</a>
+                    </span></li>
+      <li><span class="material-icons">
+                    <a href="#">shopping_cart</a>
+                    </span></li>
+    </ul>
+  </nav>
+  <div class="user-actions">
+    <a href="./login">Login</a> | <a href="/registration">Sign Up</a>
+  </div>
+</header>
+<main>
+  <h1>Login</h1>
+  <form (ngSubmit)="onSubmit(loginForm.value)" #loginForm="ngForm">
+    <div class="form-group">
+      <label for="login">Login:</label>
+      <input type="text" id="login" name="login" ngModel required>
+    </div>
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" ngModel required>
+    </div>
+    <div class="form-group">
+      <button type="submit">Login</button>
+    </div>
+  </form>
+</main>

@@ -1,0 +1,40 @@
+<header>
+  <nav>
+    <ul>
+      <li><span class="material-icons"><a href="#">reorder</a></span></li>
+      <li><input type="text" id="search" placeholder="Search"></li>
+      <li>
+        <select id="category">
+          <option value="category1">Category 1</option>
+          <option value="category2">Category 2</option>
+          <option value="category3">Category 3</option>
+        </select>
+      </li>
+      <li><span class="material-icons"><a href="#">favorite</a></span></li>
+      <li><span class="material-icons"><a href="/placing">shopping_cart</a></span></li>
+    </ul>
+  </nav>
+  <div class="user-actions">
+    <a href="/login">Login</a> | <a href="/registration">Sign Up</a>
+  </div>
+</header>
+<main>
+  <div class="item-details">
+    <div class="item-image">
+      <img src="../../../../assets/images/coupon1.jpg" alt="Coupon Image">
+    </div>
+    <div class="item-info">
+      <h1>Coupon Name: {{ couponName }}</h1>
+      <p>Short description: {{couponDescription}}</p>
+      <p>Price: {{couponPrice| price:'UAH':'left' }}</p>
+      <p>Valid until: {{couponValidTo}}</p>
+      <button (click)="addToCart()">Add to My Coupon</button>
+    </div>
+  </div>
+  <div class="item-description">
+    <h2>Long Description</h2>
+    <p>
+      This is the long description of the coupon. It provides more detailed information about the coupon's features and benefits.
+    </p>
+  </div>
+</main>

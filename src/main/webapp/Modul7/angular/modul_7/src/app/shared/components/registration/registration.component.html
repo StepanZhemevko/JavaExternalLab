@@ -1,0 +1,60 @@
+<header>
+  <nav>
+    <ul>
+      <li><span class="material-icons">
+                    <a href="#">reorder</a>
+                    </span></li>
+      <li><input type="text" id="search" placeholder="Search"></li>
+      <li>
+        <select id="category">
+          <option value="category1">Category 1</option>
+          <option value="category2">Category 2</option>
+          <option value="category3">Category 3</option>
+        </select>
+      </li>
+      <li><span class="material-icons">
+                    <a href="#">favorite</a>
+                    </span></li>
+      <li><span class="material-icons">
+                    <a href="#">shopping_cart</a>
+                    </span></li>
+    </ul>
+  </nav>
+  <div class="user-actions">
+    <a href="/login">Login</a> | <a href="/registration">Sign Up</a>
+  </div>
+</header>
+<main>
+  <h1>Sign Up</h1>
+
+  <form (ngSubmit)="onSubmit()" #registerForm="ngForm">
+    <div class="form-group">
+      <label for="login">Login Name:</label>
+      <input type="text" id="login" name="loginName" [(ngModel)]="userModel.login" required>
+    </div>
+    <div class="form-group">
+      <label for="name">First Name:</label>
+      <input type="text" id="name" name="name" [(ngModel)]="userModel.name" required>
+    </div>
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" [(ngModel)]="userModel.password" required>
+    </div>
+    <div class="form-group">
+      <label for="repeatPassword">Repeat Password:</label>
+      <input type="password" id="repeatPassword" name="repeatPassword" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" [(ngModel)]="userModel.email" required>
+    </div>
+    <div class="form-group">
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" required>
+    </div>
+    <div class="form-group">
+      <button type="submit">Sign Up</button>
+      <button type="button" id="cancel">Cancel</button>
+    </div>
+  </form>
+</main>

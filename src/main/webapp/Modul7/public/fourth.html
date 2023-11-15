@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="first.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Coupon Page</title>
+    <style>        
+        #myBtn {
+          display: none;
+          position: fixed;
+          bottom: 10px;
+          right: 10px;
+          z-index: 99;
+          font-size: 18px;
+          border: none;
+          outline: none;
+          background-color: blue;
+          color: white;
+          cursor: pointer;
+          padding: 5px;
+          border-radius: 3px;
+        }
+        
+        #myBtn:hover {
+          background-color: #555;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><span class="material-icons">reorder</span></li>
+                <li><input type="text" id="search" placeholder="Search"></li>
+                <li>
+                    <select id="category">
+                        <option value="category1">Category 1</option>
+                        <option value="category2">Category 2</option>
+                        <option value="category3">Category 3</option>
+                    </select>
+                </li>
+                <li><span class="material-icons">favorite</span></li>
+                <li><span class="material-icons">shopping_cart</span></li>
+            </ul>
+        </nav>
+        <div class="user-actions">
+            <a href="first.html">Login</a> | <a href="second.html">Sign Up</a>
+        </div>
+    </header>
+    <main>
+        <button onclick="scrollToTop()" id="myBtn" title="Go to top">Top</button>
+        <div class="page-title">
+            <h1>Coupons</h1>
+        </div>
+        <div class="categories">
+            <div class="category"> <img src="category.jpg" alt="Category 1"></div>
+            <div class="category"><img src="category.jpg" alt="Category 2"></div>
+            <div class="category"><img src="category.jpg" alt="Category 3"></div>
+        </div>
+       
+        <div id="coupons" class="coupons-table">      
+</div>
+    </main>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+    <script src="script3.js"></script>
+    <script>
+        function scrollToTop() {
+      window.scrollTo(0, 0);}
+    </script>
+    
+</body>
+</html>
